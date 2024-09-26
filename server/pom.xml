@@ -12,9 +12,11 @@
 
   <artifactId>server</artifactId>
   <packaging>jar</packaging>
-  <name></name>
+  <name>server</name>
   <description>Logic.</description>
-
+ <build>
+    <finalName>${project.artifactId}</finalName>
+  </build>
  
 
   <dependencies>
