@@ -56,7 +56,7 @@
     - Key pair: `Select` or `create a new keypair`
     - Security Group (Edit/Open): `8080, 9100` and `22 to 0.0.0.0/0`
     - IAM instance profile: Select the `AWS-EC2FullAccess-Role`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-nexus-sonarqube-jenkins-install/jenkins-install.sh
+    - User data 
     - Launch Instance
 
 4) SonarQube
@@ -66,7 +66,7 @@
     - Instance type: `t2.medium`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `9000, 9100` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-nexus-sonarqube-jenkins-install/sonarqube-install.sh
+    - User data 
     - Launch Instance
 
 5) Nexus
@@ -76,7 +76,7 @@
     - Instance type: `t2.medium`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8081, 9100` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-nexus-sonarqube-jenkins-install/nexus-install.sh
+    - User data 
     - Launch Instance
 
 6) EC2 (Dev Environment)
@@ -89,7 +89,7 @@
     - Instance type: `t2.micro`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8080, 9100, 9997` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/tomcat-splunk-installation/tomcat-ssh-configure.sh
+    - User data 
     - Launch Instance
 
 7) EC2 (Stage Environment)
@@ -102,7 +102,7 @@
     - Instance type: `t2.micro`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8080, 9100, 9997` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/tomcat-splunk-installation/tomcat-ssh-configure.sh
+    - User data
     - Launch Instance
 
 8) EC2 (Prod Environment)
@@ -115,7 +115,7 @@
     - Instance type: `t2.micro`
     - Key pair: `Select a keypair`
     - Security Group (Eit/Open): `8080, 9100, 9997` and `22 to 0.0.0.0/0`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/tomcat-splunk-installation/tomcat-ssh-configure.sh
+    - User data 
     - Launch Instance
 
 9) Prometheus
