@@ -23,7 +23,7 @@
     - Login to `Your GitHub Account`
     - Create a Repository called `Jenkins-Realworld-CICD-Project`
     - Clone the Repository in the `Repository` directory/folder on your `local machine`
-    - Download the code in in this repository `"Main branch"`: https://github.com/sahilnewar/realworld-cicd-pipeline-project.git
+    - Download the code in in this repository `"Main branch"`:(https://github.com/sahilnewar/CI-CD-Pipelines)
     - `Unzip` the `code/zipped file`
     - `Copy` and `Paste` everything `from the zipped file` into the `repository you cloned` in your local
     - Open your `Terminal`
