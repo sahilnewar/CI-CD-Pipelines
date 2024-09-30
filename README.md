@@ -179,7 +179,7 @@
 ## Configure All Systems
 ### Configure Promitheus With (Service Discovery)
   - Login/SSH to your Prometheus Server
-  - Clone repository: `git clone https://github.com/awanmbandi/realworld-cicd-pipeline-project.git`
+  - Clone repository: `git clone https://github.com/sahilnewar/CI-CD-Pipelines`
   - Change directory: `cd realworld-cicd-pipeline-project`
   - Swtitch branch: `git switch prometheus-and-grafana-install`
   - Confirm Branch Switch: `git branch` and `ls -al`
