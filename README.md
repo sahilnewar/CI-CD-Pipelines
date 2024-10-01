@@ -202,7 +202,7 @@
   - Login/SSH into the "Dev-Env", "Stage-Env" and "Prod-Env" VM instance
   - Perform the following operations on all of them
   - Install git by running: `sudo yum install git -y `
-  - Clone repository: `git clone https://github.com/sahilnewar/CI-CD-Pipelinest`
+  - Clone repository: `git clone https://github.com/sahilnewar/CI-CD-Pipelines`
   - Change directory: `cd realworld-cicd-pipeline-project`
   - Swtitch branch: `git switch prometheus-and-grafana-install`
   - Confirm Branch Switch: `git branch` and `ls -al` *(to confirm you have the branch files)*
