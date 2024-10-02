@@ -416,7 +416,6 @@ cd /opt/splunk/bin
     - **JDK** 
         - Click on `Add JDK` -->> Make sure **Install automatically** is enabled 
         
-        **Note:** By default the **Install Oracle Java SE Development Kit from the website** make sure to close that option by clicking on the image as shown below.
 
         ![JDKSetup!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/zdocs/images/dsdsdsdsdsd.png)
 
